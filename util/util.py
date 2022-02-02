@@ -3,7 +3,7 @@ import random
 import os
 
 
-def read_service_description(path):
+def read(path):
     filename = random.choice(os.listdir(path))
     service_path = os.path.join(path, filename)
     f = open(service_path)

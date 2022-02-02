@@ -6,7 +6,7 @@ base_url = 'http://127.0.0.1:5000/'
 
 def register_service():
     # Read service metadata
-    service_description = util.read_service_description('./data/service_descriptions/')
+    service_description = util.read('./data/service_descriptions/')
     # Build service image
     # Push service image
     # Request service registration
