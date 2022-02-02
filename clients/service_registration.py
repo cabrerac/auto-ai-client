@@ -10,6 +10,7 @@ def register_random_service(services_path):
     # Build service image
     # Push service image
     # Request service registration
+    print("Requesting random service registration: " + services_path)
     url = base_url + '/auto_ai/hypervisor/register_service'
     response = requests.post(url, json=service_description)
     print(response.json())
@@ -17,11 +18,12 @@ def register_random_service(services_path):
 
 def register_service(file_name):
     # Read service metadata
-    service_description = util.read_file(+file_name)
+    service_description = util.read_file(file_name)
     # Build service image
     # Push service image
     # Request service registration
     url = base_url + '/auto_ai/hypervisor/register_service'
+    print("Requesting service registration: " + file_name)
     response = requests.post(url, json=service_description)
     print(response.json())
 
