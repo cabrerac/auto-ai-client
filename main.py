@@ -1,5 +1,6 @@
 import sys
 from clients import service_registration
+from clients import service_request
 
 
 def main(action, path):
@@ -7,6 +8,8 @@ def main(action, path):
         service_registration.register_service(path)
     if action == "register_random_service":
         service_registration.register_random_service(path)
+    if action == "execute_service":
+        service_request.execute_service(path)
 
 
 if __name__ == "__main__":
