@@ -17,8 +17,8 @@ pip install  -r requirements.txt
 $ python3 main.py "<action>" "<file_path>"
 ```
 
-* <action>: It can be "register_service", "execute_service".
-* <file_path>: This is the file to the service or request description.
+* "<action>": It can be "register_service", "execute_service".
+* "<file_path>": This is the file to the service or request description.
 
 For example to register the service described in the file service3.json:
 
