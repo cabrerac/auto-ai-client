@@ -1,7 +1,0 @@
-{
-  "name" : "request 2",
-  "parameters" : {
-	"input" : "https://example-url/input_request_2",
-	"output" : "https://example-url/output_request_2"
-  }
-}

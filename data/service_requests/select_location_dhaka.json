@@ -1,0 +1,11 @@
+{
+  "request_name": "Request 1",
+  "name": "SelectLocation",
+  "inputs": {
+    
+  },
+  "parameters": {
+    "model": "s3://",
+    "location": "Dhaka"
+  }
+}
