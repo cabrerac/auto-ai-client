@@ -1,11 +1,12 @@
 {
   "request_name": "Request 1",
-  "name": "SelectLocation",
+  "name": "AggregateModels",
   "inputs": {
-    
   },
   "parameters": {
     "models": ["s3://climate-ensembling/EC-Earth3/","s3://climate-ensembling/EC-Earth3/"],
-    "locations": ["Dhaka"]
+    "locations": ["Dhaka"],
+    "bias_correction_methods": ["bc1"],
+    "aggregation_methods": ["ag1"]
   }
 }

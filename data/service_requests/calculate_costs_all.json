@@ -1,0 +1,13 @@
+{
+  "request_name": "Request 1",
+  "name": "CalculateCosts",
+  "inputs": {
+  },
+  "parameters": {
+    "models": ["s3://climate-ensembling/EC-Earth3/","s3://climate-ensembling/EC-Earth3/"],
+    "locations": ["Dhaka"],
+    "bias_correction_methods": ["bc1"],
+    "thresholds": ["1", "2"]
+    // "time_windows": [["today", "tomorrow"], [1980, 2020]]
+  }
+}
