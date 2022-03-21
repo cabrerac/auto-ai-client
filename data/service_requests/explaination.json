@@ -1,0 +1,20 @@
+{
+  "request_name": "Request for data.",
+  "target_service": "Task2",
+  "parameters": {
+    "Task1": {
+      "parameter1": [
+        "",
+        ""
+      ],
+      "parameter2": [
+        ""
+      ]
+    },
+    "Task2": {
+      "parameter1": [
+        ""
+      ]
+    }
+  }
+}

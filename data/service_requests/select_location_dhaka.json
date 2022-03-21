@@ -1,11 +1,15 @@
 {
   "request_name": "Request 1",
-  "name": "SelectLocation",
-  "inputs": {
-    
-  },
+  "target_service": "SelectLocation",
   "parameters": {
-    "models": ["s3://climate-ensembling/EC-Earth3/","s3://climate-ensembling/EC-Earth3/"],
-    "locations": ["Dhaka"]
+    "SelectLocation": {
+      "models": [
+        "s3://climate-ensembling/EC-Earth3/",
+        "s3://climate-ensembling/EC-Earth3/"
+      ],
+      "locations": [
+        "Dhaka"
+      ]
+    }
   }
 }

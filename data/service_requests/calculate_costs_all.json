@@ -1,13 +1,36 @@
 {
   "request_name": "Request 1",
-  "name": "CalculateCosts",
-  "inputs": {
-  },
+  "target_service": "CalculateCost",
   "parameters": {
-    "models": ["s3://climate-ensembling/EC-Earth3/","s3://climate-ensembling/EC-Earth3/"],
-    "locations": ["Dhaka"],
-    "bias_correction_methods": ["bc1"],
-    "thresholds": ["1", "2"]
-    // "time_windows": [["today", "tomorrow"], [1980, 2020]]
+    "SelectLocation": {
+      "models": [
+        "s3://climate-ensembling/EC-Earth3/",
+        "s3://climate-ensembling/EC-Earth3/"
+      ],
+      "locations": [
+        "Dhaka"
+      ]
+    },
+    "BiasCorrection": {
+      "bias_correction_methods": [
+        "bc1"
+      ],
+      "thresholds": [
+        "1",
+        "2"
+      ]
+    },
+    "CalculateCost": {
+      "time_windows": [
+        [
+          "today",
+          "tomorrow"
+        ],
+        [
+          1980,
+          2020
+        ]
+      ]
+    }
   }
 }
