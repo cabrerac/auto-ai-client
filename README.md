@@ -25,3 +25,9 @@ For example to register the service described in the file service3.json:
 ```
 python3 main.py "register_service" "./data/service_descriptions/service3.json"
 ```
+
+Do both!
+
+```
+./register_services.sh && ./execute_service.sh calculate_costs_all
+```
