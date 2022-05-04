@@ -2,6 +2,7 @@
   "request_name": "Request for data.",
   "target_service": "Task2",
   "parameters": {
+    "force_rerun": true,
     "Task1": {
       "parameter1": [
         "",
