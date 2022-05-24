@@ -3,6 +3,9 @@
   "image": "288687564189.dkr.ecr.eu-west-1.amazonaws.com/climate-ensembling",
   "inputs": {},
   "parameters":{
+    "model":{
+      "type": "S3Location"
+    }
     "reference":{
       "type": "S3Location"
       "defaultValue": "s3://climate-ensembling/era5/"
