@@ -1,0 +1,10 @@
+{
+  "service_name": "ProcessData",
+  "image": "288687564189.dkr.ecr.eu-west-1.amazonaws.com/climate-ensembling",
+  "inputs": {},
+  "parameters":{
+    "reference":{
+      "type": "S3Location"
+      }
+    }
+}
