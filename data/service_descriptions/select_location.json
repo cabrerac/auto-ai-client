@@ -6,8 +6,14 @@
      "models":{
       "type": "S3Location"
      },
-     "locations": {
+     "location": {
         "type": "string"
+     }
+     "start": {
+        "type": "np.datetime64"
+     }
+     "end": {
+        "type": "np.datetime64"
      }
   }
 }
