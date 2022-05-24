@@ -7,12 +7,20 @@
     }
   },
   "parameters": {
-    "bias_correction_methods": {
-      "type": "string"
+    "model": {
+      "type": "S3Location",
     },
-    "thresholds": {
-      "type": "int",
-      "defaultValue": 35
+    "reference": {
+      "type": "S3Location",
+    },
+    "past": {
+      "type": "np.datetime64",
+    },
+    "future": {
+      "type": "np.datetime64",
+    },
+    "bias_correction_method": {
+      "type": "string"
     }
   }
 }
