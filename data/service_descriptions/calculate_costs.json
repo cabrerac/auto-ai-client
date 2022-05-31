@@ -7,7 +7,19 @@
     }
   },
   "parameters": {
-    "time_windows": {
+    "model": {
+      "type": "S3Location",
+    },
+    "reference": {
+      "type": "S3Location",
+    },
+    "window": {
+      "type": "int",
+    },
+    "threshold": {
+      "type": "float",
+    },
+    "threshold_type": {
       "type": "string"
     }
   }
