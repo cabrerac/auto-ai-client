@@ -7,16 +7,20 @@
     }
   },
   "parameters": {
+    "model": {
+      "type": "S3Location"
+    },
+    "reference": {
+      "type": "S3Location"
+    },
+    "past": {
+      "type": "np.datetime64"
+    },
+    "future": {
+      "type": "np.datetime64"
+    },
     "bias_correction_method": {
-      "type": "string",
-      "defaultValue": "None"
-    },
-    "reference":{
-      "type": "S3Location"
-      "defaultValue": "s3://climate-ensembling/era5/"
-    },
-    "model":{
-      "type": "S3Location"
+      "type": "string"
     }
   }
 }

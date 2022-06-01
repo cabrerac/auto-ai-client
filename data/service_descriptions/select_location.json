@@ -6,7 +6,7 @@
      "model":{
       "type": "S3Location"
      },
-     "locations": {
+     "location": {
         "type": "string"
      },
      "start": {

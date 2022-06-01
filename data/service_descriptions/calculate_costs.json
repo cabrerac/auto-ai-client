@@ -7,18 +7,18 @@
     }
   },
   "parameters": {
-    "reference":{
+    "model": {
       "type": "S3Location"
     },
-    "model":{
+    "reference": {
       "type": "S3Location"
-    }
-      "window": {
-        "type": "int"
-    }
+    },
+    "window": {
+      "type": "int"
+    },
     "threshold": {
       "type": "float"
-    }
+    },
     "threshold_type": {
       "type": "string"
     }
