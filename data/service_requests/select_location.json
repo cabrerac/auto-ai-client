@@ -3,8 +3,11 @@
   "target_service": "SelectLocation",
   "parameters": {
     "force_rerun": true,
-    "SelectLocation": {
+    "ProcessData": {
       "model": "s3://climate-ensembling/tst/EC-Earth3/",
+      "standardised_calendar": "s3://climate-ensembling/tst/EC-Earth3/"
+    },
+    "SelectLocation": {
       "location": "Dhaka",
       "start": "1980-01-01",
       "end": "2050-01-01"

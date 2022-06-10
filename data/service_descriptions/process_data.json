@@ -7,7 +7,7 @@
       "type": "S3Location"
     },
     "standardised_calendar": {
-      "type": "S3Location",
+      "type": "S3Location"
     }
   }
 }

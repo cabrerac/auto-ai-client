@@ -1,0 +1,23 @@
+{
+  "request_name": "Request 1",
+  "target_service": "SelectLocation",
+  "parameters": {
+    "force_rerun": true,
+    "ProcessData" : {
+      "model": "s3://",
+      "standardised_calendar": "s3://"
+    },
+    "SelectLocation": {
+      "location": "Dhaka",
+      "start": "1980-01-01",
+      "end": "2050-01-01"
+    },
+    "BiasCorrection" : {
+      "bias_correction_method": "default"
+    },
+    "AggregateModels" : {
+      "aggregation_method": "default"
+    }
+
+  }
+}
