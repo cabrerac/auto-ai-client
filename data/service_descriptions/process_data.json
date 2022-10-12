@@ -6,7 +6,7 @@
     "model": {
       "type": "S3Location"
     },
-    "standardised_calendar": {
+    "reference": {
       "type": "S3Location"
     }
   }

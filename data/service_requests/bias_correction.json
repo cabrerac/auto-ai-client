@@ -1,6 +1,6 @@
 {
   "request_name": "Request 1",
-  "target_service": "SelectLocation",
+  "target_service": "BiasCorrection",
   "force_rerun": true,
   "parameters": {
     "ProcessData": {
@@ -11,6 +11,11 @@
       "location": ["Dhaka", "Chicago"],
       "start": ["1980-01-01"],
       "end": ["2020-01-01"]
+    },
+    "BiasCorrection" : {
+      "bias_correction_method": ["method1", "method2"],
+      "past": ["1980-01-01"],
+      "future": ["2020-01-01"]
     }
   }
 }

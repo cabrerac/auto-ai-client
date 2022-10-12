@@ -1,8 +1,8 @@
 {
   "request_name": "Request 1",
   "target_service": "SelectLocation",
+  "force_rerun": true,
   "parameters": {
-    "force_rerun": true,
     "ProcessData" : {
       "model": "s3://",
       "standardised_calendar": "s3://"
