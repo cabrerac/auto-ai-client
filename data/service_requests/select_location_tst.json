@@ -1,0 +1,16 @@
+{
+  "request_name": "Request 1",
+  "target_service": "SelectLocation",
+  "force_rerun": true,
+  "parameters": {
+    "ProcessData": {
+      "model": ["s3://climate-ensembling/tst/EC-Earth3/", "s3://climate-ensembling/tst/EC-Earth3-dupe/"],
+      "reference": ["s3://climate-ensembling/tst/EC-Earth3/"]
+    },
+    "SelectLocation": {
+      "location": ["Dhaka", "Chicago"],
+      "start": ["1980-01-01"],
+      "end": ["2020-01-01"]
+    }
+  }
+}

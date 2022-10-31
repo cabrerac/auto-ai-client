@@ -4,19 +4,19 @@
   "force_rerun": true,
   "parameters": {
     "ProcessData" : {
-      "model": "s3://",
-      "standardised_calendar": "s3://"
+      "model": ["s3://"],
+      "standardised_calendar": ["s3://"]
     },
     "SelectLocation": {
-      "location": "Dhaka",
-      "start": "1980-01-01",
-      "end": "2050-01-01"
+      "location": ["Dhaka"],
+      "start": ["1980-01-01"],
+      "end": ["2050-01-01"]
     },
     "BiasCorrection" : {
-      "bias_correction_method": "default"
+      "bias_correction_method": ["default"]
     },
     "AggregateModels" : {
-      "aggregation_method": "default"
+      "aggregation_method": ["default"]
     }
 
   }

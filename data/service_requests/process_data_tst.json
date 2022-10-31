@@ -1,0 +1,11 @@
+{
+  "request_name": "Request 1",
+  "target_service": "ProcessData",
+  "force_rerun": true,
+  "parameters": {
+    "ProcessData": {
+      "model": ["s3://climate-ensembling/tst/EC-Earth3/", "s3://climate-ensembling/tst/EC-Earth3-dupe/"],
+      "reference": ["s3://climate-ensembling/tst/EC-Earth3/"]
+    }
+  }
+}
