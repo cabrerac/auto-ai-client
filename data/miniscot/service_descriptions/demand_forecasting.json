@@ -1,0 +1,14 @@
+{
+    "service_name": "DemandForecasting",
+    "image": "288687564189.dkr.ecr.eu-west-1.amazonaws.com/miniscot",
+    "inputs": {
+      "CustomerBuyingSimulation": {
+        "type": "ServiceOutput"
+      }
+    },
+    "parameters": {
+      "forecasting_method": {
+        "type": "string"
+      }
+    }
+  }

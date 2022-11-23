@@ -1,0 +1,23 @@
+{
+  "request_name": "Request 1",
+  "target_service": "ProfitCalculator",
+  "force_rerun": true,
+  "parameters": {
+    "CustomerBuyingSimulation" : {
+      "customer_demand_mean": [10],
+      "customer_demand_std": [2]
+    },
+    "InventoryOrderingSimluation": {
+      "ordering_delay_mean": [3],
+      "ordering_delay_std": [1],
+      "fufillment_center": ["WA"]
+    },
+    "DemandForecasting" : {
+      "forecasting_method": ["linear"]
+    },
+    "ProfitCalculator" : {
+      "profit_calculation_method": ["direct"]
+    }
+
+  }
+}
